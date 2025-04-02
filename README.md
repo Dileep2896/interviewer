@@ -78,6 +78,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+## Screenshots
+
+Here are some screenshots of the project:
+
+![Screen 1](public/screen%201.png)
+![Screen 2](public/screen%202.png)
+![Screen 3](public/screen%203.png)
+
 ## Live Project
 
 Check out the live version of the project here: [Interviewer App](https://interviewer-rouge-one.vercel.app)
