@@ -146,6 +146,7 @@ Thank the candidate for their time.
 Inform them that the company will reach out soon with feedback.
 End the conversation on a polite and positive note.
 
+
 - Be sure to be professional and polite.
 - Keep all your responses short and simple. Use official language, but be kind and welcoming.
 - This is a voice conversation, so keep your responses short, like in a real conversation. Don't ramble for too long.`,
@@ -211,72 +212,19 @@ export const dummyInterviews: Interview[] = [
     type: "Technical",
     techstack: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     level: "Junior",
-    questions: [
-      "What is React?",
-      "Explain the component lifecycle.",
-      "What are hooks?",
-    ],
+    questions: ["What is React?"],
     finalized: false,
     createdAt: "2024-03-15T10:00:00Z",
   },
   {
     id: "2",
-    userId: "user2",
-    role: "Backend Engineer",
-    type: "System Design",
-    techstack: ["Node.js", "Express", "PostgreSQL", "Docker"],
-    level: "Mid-level",
-    questions: [
-      "Design a RESTful API for user authentication.",
-      "Explain database normalization.",
-      "What are microservices?",
-    ],
-    finalized: true,
-    createdAt: "2024-03-16T14:30:00Z",
-  },
-  {
-    id: "3",
-    userId: "user3",
-    role: "Data Scientist",
-    type: "Machine Learning",
-    techstack: ["Python", "Pandas", "Scikit-learn", "TensorFlow"],
+    userId: "user1",
+    role: "Full Stack Developer",
+    type: "Mixed",
+    techstack: ["Node.js", "Express", "MongoDB", "React"],
     level: "Senior",
-    questions: [
-      "Explain the bias-variance tradeoff.",
-      "What are different types of neural networks?",
-      "How do you handle imbalanced datasets?",
-    ],
-    finalized: true,
-    createdAt: "2024-03-17T09:15:00Z",
-  },
-  {
-    id: "4",
-    userId: "user4",
-    role: "UI/UX Designer",
-    type: "Design Portfolio Review",
-    techstack: ["Figma", "Adobe XD", "User Research"],
-    level: "Junior",
-    questions: [
-      "Walk me through your design process.",
-      "How do you gather user feedback?",
-      "Explain your approach to responsive design.",
-    ],
+    questions: ["What is Node.js?"],
     finalized: false,
-    createdAt: "2024-03-18T16:45:00Z",
-  },
-  {
-    id: "5",
-    userId: "user5",
-    role: "DevOps Engineer",
-    type: "System Administration",
-    techstack: ["AWS", "Kubernetes", "CI/CD", "Linux"],
-    level: "Mid-level",
-    questions: [
-      "Explain the differences between Docker and Kubernetes.",
-      "How do you implement CI/CD pipelines?",
-      "What are common AWS services and their use cases?",
-    ],
-    finalized: true,
-    createdAt: "2024-03-19T11:20:00Z",
+    createdAt: "2024-03-14T15:30:00Z",
   },
 ];
